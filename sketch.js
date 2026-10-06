@@ -8,19 +8,23 @@ function setup() {
 function draw() {
   background(39, 50, 72);
 
+  push();
+  translate(width / 2, height / 2);
   beginShape();
-  vertex(500, 350);
-  vertex(500, 400);
-  vertex(450, 400);
-  vertex(450, 450);
-  vertex(500, 450);
-  vertex(500, 500);
-  vertex(550, 500);
-  vertex(550, 450);
-  vertex(600, 450);
-  vertex(600, 400);
-  vertex(550, 400);
-  vertex(550, 350);
+  vertex(-25, -75);
+  vertex(-25, -25);
+  vertex(-75, -25);
+  vertex(-75, 25);
+  vertex(-25, 25);
+  vertex(-25, 75);
+  vertex(25, 75);
+  vertex(25, 25);
+  vertex(75, 25);
+  vertex(75, -25);
+  vertex(25, -25);
+  vertex(25, -75);
   endShape(CLOSE);
+  pop();
+
   fill(255);
 }
