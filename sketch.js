@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background(39, 50, 71);
+  background(39, 50, 72);
 
   beginShape();
   vertex(500, 350);
